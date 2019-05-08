@@ -1,0 +1,102 @@
+
+.infoColumn,
+.infoContent {
+  /* display: none; */
+  position: absolute;
+  right: 10px;
+
+  /* width: 80px; */
+  min-width: 60px;
+  height: 24px;
+
+  padding: 5px 10px;
+
+  /* border: 1px solid #427cac; */
+  border-radius: 4px;
+
+  background-color: #427cac;
+
+  text-align: center;
+  font-size: 11px;
+  color: white;
+}
+
+.infoColumn {
+  top: -12px;
+}
+
+.infoContent {
+  bottom: -12px;
+}
+
+.border {
+  border: solid 1px #e8e8e8;
+}
+
+div:hover {
+}
+
+/* ROW */
+
+.row {
+  margin: 0;
+  border: 1px solid white;
+  border-bottom: 1px dotted #aaa;
+}
+
+.row:hover {
+  border: 1px solid green !important;
+}
+
+.col {
+  padding: 0;
+}
+
+/* COL HELPER */
+
+.colHelper {
+  padding: 15px 0;
+  border-width: 0 !important;
+  background: white;
+}
+
+.colHelper:hover .colHelper,
+.colHelper:hover {
+  background-image: url("transparent.png");
+  padding: 15px 0;
+}
+
+/* COL MARGIN */
+
+.colMargin {
+  background-color: white;
+  padding: 0;
+}
+
+.colHelper:hover .colMargin {
+  background-color: #AAD4FF;
+}
+
+/* COL PADDING */
+
+.colPadding {
+  position: relative;
+  border: dashed 1px #aaa;
+  background: white;
+  padding: 0;
+}
+
+.colHelper:hover .colPadding {
+  background-color: #D4FFD4;
+}
+
+/* COL CONTENT */
+
+.colContent {
+  background: white;
+  padding: 0;
+}
+
+.colHelper:hover .colContent {
+  background-color: #FFD4AA;
+}
